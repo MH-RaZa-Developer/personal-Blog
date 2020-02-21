@@ -194,3 +194,37 @@ body{
     }
 
 }
+
+@media all and (max-width:420px){
+    .nav-area ul li{
+        margin:0;
+        margin-right:10px;
+    }
+    .header-img img{
+        margin:0;
+        margin-left:40px;
+    }
+    .about-section .about-text{
+        margin:0;
+        width:350px;
+    }
+    .about-me img{
+        margin:0;
+        margin-left:40px;
+    }
+    .item img{
+        width:80%;
+        margin:0;
+        padding-bottom:50px;
+        margin-left:10%;
+    }
+    .contact-img img{
+        width:50%;
+        margin-left:100px;
+        float:none;
+    }
+    .contact-detail{
+        padding-left:0;
+        margin-top:0;
+    }
+}
